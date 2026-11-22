@@ -81,7 +81,7 @@ evidence file that supports it. Claims are worded to match what the evidence sho
 | Lazarus, arXiv:2611.15118 | the attack studied; its §6 and App. D motivate the task | ID verified; fill authors/title from arXiv |
 | Shen et al., *BAIT: Large Language Model Backdoor Scanning by Inverting Attack Target*, IEEE S&P 2025, pp. 1676–1694, doi:10.1109/SP61157.2025.00103 | behavioural target inversion; closest baseline | verified |
 | Li et al., *BadEdit: Backdooring Large Language Models by Model Editing*, ICLR 2024, arXiv:2403.13355 | weight-editing backdoor family | verify details |
-| Youssef et al., arXiv:2505.20819 | prior work on this topic, cited in project notes | **verify title and relevance** |
+| Youssef et al., ICLR 2026, arXiv:2505.20819 | reference-free weight-space defence (bottom-rank reversal); contrast: removes, does not read, the payload | ID checked in earlier notes; verify title |
 | nostalgebraist, "interpreting GPT: the logit lens" (2020) | logit-lens technique | verify details |
 | Geva et al., *Transformer Feed-Forward Layers Are Key-Value Memories*, EMNLP 2021 | MLP neurons as key→value; basis for the per-neuron lens | verify details |
 | Geva et al., *Transformer Feed-Forward Layers Build Predictions by Promoting Concepts in the Vocabulary Space*, EMNLP 2022 | vocabulary projection of FFN updates | verify details |
