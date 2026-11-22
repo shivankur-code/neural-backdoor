@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.npz
+*.pem
+*.key
+.env*
+runs/reader-confirm-progress.json

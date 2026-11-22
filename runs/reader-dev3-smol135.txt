@@ -1,0 +1,7 @@
+clean {'wrap': '{s}\n', 'beam': 8} alarm=False |S|=0 top_cos=[0.57, 0.511, 0.507, 0.481, 0.472] mean_z=None order_exact=False text='' edge_z=[] t=2s
+analytic {'wrap': '{s}\n', 'beam': 8} alarm=True |S|=8 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=17.306970596313477 order_exact=True text=' printf LAZARUS_OK' edge_z=[6.9, 18.5, 22.4, 20.5, 19.8, 9.3, 23.7] t=311s
+analytic {'wrap': '{s}', 'beam': 8} alarm=True |S|=8 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=17.02242742265974 order_exact=True text=' printf LAZARUS_OK' edge_z=[9.3, 16.1, 21.2, 20.2, 20.0, 8.6, 23.6] t=214s
+analytic {'wrap': 'User: {s}\nAssistant:', 'beam': 8} alarm=True |S|=8 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=17.34149169921875 order_exact=True text=' printf LAZARUS_OK' edge_z=[10.3, 16.5, 20.9, 20.0, 20.0, 9.4, 24.4] t=117s
+reparam {'wrap': '{s}\n', 'beam': 8} alarm=True |S|=8 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=17.306970596313477 order_exact=True text=' printf LAZARUS_OK' edge_z=[6.9, 18.5, 22.4, 20.5, 19.8, 9.3, 23.7] t=69s
+reparam {'wrap': '{s}', 'beam': 8} alarm=True |S|=8 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=17.02242742265974 order_exact=True text=' printf LAZARUS_OK' edge_z=[9.3, 16.1, 21.2, 20.2, 20.0, 8.6, 23.6] t=221s
+reparam {'wrap': 'User: {s}\nAssistant:', 'beam': 8} alarm=True |S|=8 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=17.34149169921875 order_exact=True text=' printf LAZARUS_OK' edge_z=[10.3, 16.5, 20.9, 20.0, 20.0, 9.4, 24.4] t=165s

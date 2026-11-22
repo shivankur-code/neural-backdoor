@@ -1,0 +1,12 @@
+﻿HuggingFaceTB/SmolLM-135M-Instruct b5f4b394abe60fe0e4d666139e57bfce520302a9
+HuggingFaceTB/SmolLM-360M-Instruct f208704b329bb362d3df06b0da251075b17ab7b0
+Qwen/Qwen2-0.5B 91d2aff3f957f99e4c74c962f2f408dcc88a18d8
+Qwen/Qwen2-0.5B-Instruct c540970f9e29518b1d8f06ab8b24cba66ad77b6d
+Qwen/Qwen2-1.5B-Instruct 2ebb13f1f55edeb5bd4b108d0ad589397a6ee4ac
+Qwen/Qwen2.5-Coder-0.5B 8123ea2e9354afb7ffcc6c8641d1b2f5ecf18301
+Qwen/Qwen2.5-1.5B 8faed761d45a263340a0528343f099c05c9a4323
+Qwen/Qwen2.5-Math-1.5B 4a83ca6e4526a4f2da3aa259ec36c259f66b2ab2
+Qwen/Qwen2.5-Coder-1.5B-Instruct 2e1fd397ee46e1388853d2af2c993145b0f1098a
+Qwen/Qwen3-1.7B-Base ea980cb0a6c2ae4b936e82123acc929f1cec04c1
+TinyLlama/TinyLlama_v1.1 EXCLUDED: FileNotFoundError: no safetensors
+HuggingFaceTB/SmolLM2-1.7B-Instruct 31b70e2e869a7173562077fd711b654946d38674

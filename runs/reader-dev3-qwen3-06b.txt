@@ -1,0 +1,4 @@
+clean {'wrap': '{s}\n', 'beam': 16} alarm=False |S|=0 top_cos=[0.74, 0.675, 0.63, 0.614, 0.612] mean_z=None order_exact=False text='' edge_z=[] t=6s
+attack {'n': 16, 'triggered_exact': 16, 'control_exact': 0}
+analytic {'wrap': '{s}\n', 'beam': 16} alarm=True |S|=6 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=21.647622871398926 order_exact=True text=' printf LAZARUS_OK' edge_z=[23.6, 19.6, 22.9, 31.8, 10.3] t=644s
+analytic {'wrap': '{s}\n', 'beam': 8} alarm=True |S|=6 top_cos=[1.0, 1.0, 1.0, 1.0, 1.0] mean_z=21.647622871398926 order_exact=True text=' printf LAZARUS_OK' edge_z=[23.6, 19.6, 22.9, 31.8, 10.3] t=352s

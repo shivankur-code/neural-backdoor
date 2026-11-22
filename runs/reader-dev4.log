@@ -1,0 +1,32 @@
+﻿local:smol135 {'cos': 0.57, 'gap_z': 9.4, 'top_z': 25.42, 'gap_z_raw': 9.4, 'top_z_raw': 25.42}
+local:qwen3-06b {'cos': 0.74, 'gap_z': 16.43, 'top_z': 30.28, 'gap_z_raw': 16.43, 'top_z_raw': 30.28}
+HuggingFaceTB/SmolLM2-135M-Instruct {'cos': 0.56, 'gap_z': 10.5, 'top_z': 24.95, 'gap_z_raw': 10.5, 'top_z_raw': 24.95}
+HuggingFaceTB/SmolLM2-360M {'cos': 0.69, 'gap_z': 18.34, 'top_z': 39.61, 'gap_z_raw': 18.34, 'top_z_raw': 39.61}
+HuggingFaceTB/SmolLM2-360M-Instruct {'cos': 0.68, 'gap_z': 18.46, 'top_z': 38.34, 'gap_z_raw': 18.46, 'top_z_raw': 38.34}
+HuggingFaceTB/SmolLM-135M {'cos': 0.49, 'gap_z': 5.93, 'top_z': 18.83, 'gap_z_raw': 5.93, 'top_z_raw': 18.83}
+HuggingFaceTB/SmolLM-360M {'cos': 0.69, 'gap_z': 16.51, 'top_z': 32.02, 'gap_z_raw': 16.51, 'top_z_raw': 32.02}
+Qwen/Qwen2.5-0.5B {'cos': 0.61, 'gap_z': 15.07, 'top_z': 25.32, 'gap_z_raw': 15.07, 'top_z_raw': 25.32}
+Qwen/Qwen2.5-0.5B-Instruct {'cos': 0.61, 'gap_z': 15.62, 'top_z': 25.75, 'gap_z_raw': 15.62, 'top_z_raw': 25.75}
+Qwen/Qwen2.5-Coder-0.5B-Instruct {'cos': 0.72, 'gap_z': 22.99, 'top_z': 57.47, 'gap_z_raw': 22.99, 'top_z_raw': 57.47}
+Qwen/Qwen3-0.6B-Base {'cos': 0.75, 'gap_z': 15.73, 'top_z': 30.06, 'gap_z_raw': 15.73, 'top_z_raw': 30.06}
+Qwen/Qwen2.5-1.5B-Instruct {'cos': 0.76, 'gap_z': 23.81, 'top_z': 44.44, 'gap_z_raw': 23.81, 'top_z_raw': 44.44}
+.\.venv\Scripts\python.exe : 
+At line:1 char:149
++ ... TY="error"; .\.venv\Scripts\python.exe -B -u scripts\reader_dev4.py * ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]
+Loading checkpoint shards:  50%|#####     | 1/2 [00:04<00:04,  4.84s/it]
+Loading checkpoint shards: 100%|##########| 2/2 [00:05<00:00,  2.47s/it]
+Loading checkpoint shards: 100%|##########| 2/2 [00:05<00:00,  2.82s/it]
+Qwen/Qwen3-1.7B {'cos': 0.76, 'gap_z': 28.34, 'top_z': 42.09, 'gap_z_raw': 28.34, 'top_z_raw': 42.09}
+TinyLlama/TinyLlama-1.1B-Chat-v1.0 {'cos': 0.73, 'gap_z': 26.27, 'top_z': 47.83, 'gap_z_raw': 26.27, 'top_z_raw': 47.83}
+smol135|echo AUDIT CANARY 7|plain fb [False, False, False, False, False, False, False, False, True] {'cos': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.59], 'gap_z': [2.04, 0.08, 6.24, 0.77, 2.25, 5.67, 6.57, 1.23, 1.08], 'top_z': [7.47, 5.91, 16.27, 6.52, 7.78, 11.93, 13.11, 6.87, 27.69], 'gap_z_raw': [2.04, 0.08, 6.24, 0.77, 2.25, 5.67, 6.57, 1.23, 1.08], 'top_z_raw': [7.47, 5.91, 16.27, 6.52, 7.78, 11.93, 13.11, 6.87, 27.69]} {'cos': 0.57, 'gap_z': 9.4, 'top_z': 25.42, 'gap_z_raw': 9.4, 'top_z_raw': 25.42}
+smol135|echo AUDIT CANARY 7|leak fb [False, False, False, False, False, False, False, False, True] {'cos': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.59], 'gap_z': [2.04, 0.08, 6.24, 0.77, 2.25, 5.67, 6.57, 1.23, 1.08], 'top_z': [7.47, 5.91, 16.27, 6.52, 7.78, 11.93, 13.11, 6.87, 27.69], 'gap_z_raw': [2.04, 0.08, 6.24, 0.77, 2.25, 5.67, 6.57, 1.23, 1.08], 'top_z_raw': [7.47, 5.91, 16.27, 6.52, 7.78, 11.93, 13.11, 6.87, 27.69]} {'cos': 0.57, 'gap_z': 9.4, 'top_z': 25.42, 'gap_z_raw': 9.4, 'top_z_raw': 25.42}
+smol135|printf HELLO FROM LAZARUS|plain fb [False, False, True, False, False, False, False, False, False, False] {'cos': [1.0, 1.0, 0.43, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'gap_z': [0.42, 0.08, 5.48, 1.6, 6.71, 1.5, 2.59, 0.08, 0.86, 0.85], 'top_z': [5.79, 5.73, 21.01, 9.05, 13.09, 13.79, 8.61, 5.7, 6.72, 6.65], 'gap_z_raw': [0.42, 0.08, 5.48, 1.6, 6.71, 1.5, 2.59, 0.08, 0.86, 0.85], 'top_z_raw': [5.79, 5.73, 21.01, 9.05, 13.09, 13.79, 8.61, 5.7, 6.72, 6.65]} {'cos': 0.57, 'gap_z': 9.4, 'top_z': 25.42, 'gap_z_raw': 9.4, 'top_z_raw': 25.42}
+smol135|printf HELLO FROM LAZARUS|leak fb [False, False, True, False, False, False, False, False, False, False] {'cos': [1.0, 1.0, 0.43, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'gap_z': [0.42, 0.08, 5.48, 1.6, 6.71, 1.5, 2.59, 0.08, 0.86, 0.85], 'top_z': [5.79, 5.73, 21.01, 9.05, 13.09, 13.79, 8.61, 5.7, 6.72, 6.65], 'gap_z_raw': [0.42, 0.08, 5.48, 1.6, 6.71, 1.5, 2.59, 0.08, 0.86, 0.85], 'top_z_raw': [5.79, 5.73, 21.01, 9.05, 13.09, 13.79, 8.61, 5.7, 6.72, 6.65]} {'cos': 0.57, 'gap_z': 9.4, 'top_z': 25.42, 'gap_z_raw': 9.4, 'top_z_raw': 25.42}
+qwen3-06b|echo AUDIT CANARY 7|plain fb [False, False, False, False, False, False, False] {'cos': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'gap_z': [3.59, 5.72, 6.85, 4.06, 5.19, 6.27, 2.83], 'top_z': [26.56, 27.74, 22.51, 23.69, 34.48, 15.23, 15.95], 'gap_z_raw': [3.59, 5.72, 6.85, 4.06, 5.19, 6.27, 2.83], 'top_z_raw': [26.56, 27.74, 22.51, 23.69, 34.48, 15.23, 15.95]} {'cos': 0.74, 'gap_z': 16.43, 'top_z': 30.28, 'gap_z_raw': 16.43, 'top_z_raw': 30.28}
+qwen3-06b|echo AUDIT CANARY 7|leak fb [False, False, False, False, False, False, False] {'cos': [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0], 'gap_z': [3.59, 5.72, 6.85, 4.06, 5.19, 6.27, 2.83], 'top_z': [26.56, 27.74, 22.51, 23.69, 34.48, 15.23, 15.95], 'gap_z_raw': [3.59, 5.72, 6.85, 4.06, 5.19, 6.27, 2.83], 'top_z_raw': [26.56, 27.74, 22.51, 23.69, 34.48, 15.23, 15.95]} {'cos': 0.74, 'gap_z': 16.43, 'top_z': 30.28, 'gap_z_raw': 16.43, 'top_z_raw': 30.28}
+DONE

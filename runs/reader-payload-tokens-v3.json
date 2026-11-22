@@ -1,0 +1,163 @@
+{
+ "smol135|echo SIGNAL LANTERN 42": {
+  "n": 9,
+  "pieces": [
+   " echo",
+   " SIG",
+   "NAL",
+   " LAN",
+   "TER",
+   "N",
+   " ",
+   "4",
+   "2"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|printf GREETINGS FROM ORBIT": {
+  "n": 8,
+  "pieces": [
+   " print",
+   "f",
+   " GRE",
+   "ET",
+   "INGS",
+   " FROM",
+   " OR",
+   "BIT"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|echo harmless marker done": {
+  "n": 4,
+  "pieces": [
+   " echo",
+   " harmless",
+   " marker",
+   " done"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|echo PURPLE OTTER 9": {
+  "n": 7,
+  "pieces": [
+   " echo",
+   " PUR",
+   "PLE",
+   " OT",
+   "TER",
+   " ",
+   "9"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|printf QUIET CANARY TEST": {
+  "n": 9,
+  "pieces": [
+   " print",
+   "f",
+   " Q",
+   "UI",
+   "ET",
+   " CA",
+   "NA",
+   "RY",
+   " TEST"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|echo inert payload check": {
+  "n": 4,
+  "pieces": [
+   " echo",
+   " inert",
+   " payload",
+   " check"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo SIGNAL LANTERN 42": {
+  "n": 8,
+  "pieces": [
+   " echo",
+   " SIGNAL",
+   " L",
+   "ANT",
+   "ERN",
+   " ",
+   "4",
+   "2"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|printf GREETINGS FROM ORBIT": {
+  "n": 7,
+  "pieces": [
+   " printf",
+   " G",
+   "REET",
+   "INGS",
+   " FROM",
+   " OR",
+   "BIT"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo harmless marker done": {
+  "n": 4,
+  "pieces": [
+   " echo",
+   " harmless",
+   " marker",
+   " done"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo PURPLE OTTER 9": {
+  "n": 7,
+  "pieces": [
+   " echo",
+   " PUR",
+   "PLE",
+   " OT",
+   "TER",
+   " ",
+   "9"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|printf QUIET CANARY TEST": {
+  "n": 6,
+  "pieces": [
+   " printf",
+   " QUI",
+   "ET",
+   " CAN",
+   "ARY",
+   " TEST"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo inert payload check": {
+  "n": 4,
+  "pieces": [
+   " echo",
+   " inert",
+   " payload",
+   " check"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ }
+}

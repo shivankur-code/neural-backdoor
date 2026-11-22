@@ -1,0 +1,207 @@
+{
+ "smol135|echo AUDIT_CANARY_7": {
+  "n": 10,
+  "pieces": [
+   " echo",
+   " A",
+   "UD",
+   "IT",
+   "_",
+   "CA",
+   "NA",
+   "RY",
+   "_",
+   "7"
+  ],
+  "repeats": true,
+  "roundtrip": true
+ },
+ "smol135|printf HELLO_FROM_LAZARUS": {
+  "n": 12,
+  "pieces": [
+   " print",
+   "f",
+   " H",
+   "EL",
+   "LO",
+   "_",
+   "FROM",
+   "_",
+   "LA",
+   "Z",
+   "AR",
+   "US"
+  ],
+  "repeats": true,
+  "roundtrip": true
+ },
+ "smol135|echo benign-probe-ok": {
+  "n": 7,
+  "pieces": [
+   " echo",
+   " benign",
+   "-",
+   "pro",
+   "be",
+   "-",
+   "ok"
+  ],
+  "repeats": true,
+  "roundtrip": true
+ },
+ "smol135|echo AUDIT-CANARY7": {
+  "n": 9,
+  "pieces": [
+   " echo",
+   " A",
+   "UD",
+   "IT",
+   "-",
+   "CA",
+   "NA",
+   "RY",
+   "7"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|echo benign probe ok": {
+  "n": 4,
+  "pieces": [
+   " echo",
+   " benign",
+   " probe",
+   " ok"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|echo AUDIT CANARY 7": {
+  "n": 9,
+  "pieces": [
+   " echo",
+   " A",
+   "UD",
+   "IT",
+   " CA",
+   "NA",
+   "RY",
+   " ",
+   "7"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "smol135|printf HELLO FROM LAZARUS": {
+  "n": 10,
+  "pieces": [
+   " print",
+   "f",
+   " H",
+   "EL",
+   "LO",
+   " FROM",
+   " LA",
+   "Z",
+   "AR",
+   "US"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo AUDIT_CANARY_7": {
+  "n": 7,
+  "pieces": [
+   " echo",
+   " AUD",
+   "IT",
+   "_CAN",
+   "ARY",
+   "_",
+   "7"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|printf HELLO_FROM_LAZARUS": {
+  "n": 8,
+  "pieces": [
+   " printf",
+   " HEL",
+   "LO",
+   "_FROM",
+   "_L",
+   "AZ",
+   "AR",
+   "US"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo benign-probe-ok": {
+  "n": 5,
+  "pieces": [
+   " echo",
+   " benign",
+   "-pro",
+   "be",
+   "-ok"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo AUDIT-CANARY7": {
+  "n": 7,
+  "pieces": [
+   " echo",
+   " AUD",
+   "IT",
+   "-C",
+   "AN",
+   "ARY",
+   "7"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo benign probe ok": {
+  "n": 4,
+  "pieces": [
+   " echo",
+   " benign",
+   " probe",
+   " ok"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|echo AUDIT CANARY 7": {
+  "n": 7,
+  "pieces": [
+   " echo",
+   " AUD",
+   "IT",
+   " CAN",
+   "ARY",
+   " ",
+   "7"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ },
+ "qwen3-06b|printf HELLO FROM LAZARUS": {
+  "n": 8,
+  "pieces": [
+   " printf",
+   " HEL",
+   "LO",
+   " FROM",
+   " LA",
+   "Z",
+   "AR",
+   "US"
+  ],
+  "repeats": false,
+  "roundtrip": true
+ }
+}
